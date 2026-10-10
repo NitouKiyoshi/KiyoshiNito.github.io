@@ -7,21 +7,18 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
     margin: 0;
-    background: #f3f8ff;   /* 明るい青白色 */
-    color: #222;           /* 文字を黒系に変更 */
-    /*background: #0f172a;*/
-    /*color: white;*/
+    background: #f3f8ff;
+    color: #222;
     text-align: center;
     font-size: 20px;
 }
 
-    
 header {
     background: linear-gradient(135deg, #60a5fa, #a78bfa);
     color: white;
     padding: 60px 20px;
-    /*background: linear-gradient(135deg, #2563eb, #7c3aed);*/
 }
+
 h1 {
     font-size: 60px;
     margin-bottom: 10px;
@@ -53,11 +50,27 @@ section {
 }
 
 .feature {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
     text-align: left;
     line-height: 1.8;
-    font-size: 36px;   /* 追加 */
+    font-size: 36px;
+}
+
+.recording {
+    max-width: 700px;
+    margin: auto;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 30px;
+}
+
+.pro {
+    background: #eef2ff;
+}
+
+.pro h2 {
+    color: #4f46e5;
 }
 
 footer {
@@ -73,6 +86,7 @@ footer {
 <header>
     <h1>🎵 メトロノーム</h1>
     <p>正確なリズムを、いつでもどこでも</p>
+
     <a class="btn"
        href="https://apps.apple.com/app/id6756605549"
        target="_blank">
@@ -80,8 +94,10 @@ footer {
     </a>
 </header>
 
+
 <section>
     <h2>📱 特徴</h2>
+
     <div class="feature">
         ✔ シンプルで見やすいUI<br>
         ✔ 高精度BPM（20〜300）対応<br>
@@ -90,24 +106,54 @@ footer {
         ✔ 開始時間設定で複数iPhone同時再生<br>
         ✔ タップでテンポ設定<br>
         ✔ バックグラウンド再生<br>
-        ✔ メトロノーム再生に合わせたiphoneの振動<br>
+        ✔ メトロノーム再生に合わせたiPhoneの振動<br>
         ✔ チューナー機能<br>
+        ✔ 練習録音機能
     </div>
 </section>
-<section>
-  <h2>🎬 アプリ動作動画</h2>
 
-  <video controls width="100%" style="max-width:500px; border-radius:12px;">
-    <source src="movie4.mp4" type="video/mp4">
-  </video>
+
+<section class="pro">
+    <h2>🎙️ 練習録音機能</h2>
+
+    <div class="recording">
+        <p>
+            メトロノームを鳴らしながら、<br>
+            自分の演奏を録音できます。
+        </p>
+
+        <p>
+            🎵 メトロノームに合わせて演奏<br>
+            🎙️ 演奏を録音<br>
+            ▶️ 録音した演奏をあとから確認
+        </p>
+
+        <p>
+            楽器の練習やリズムトレーニングに便利な
+            「練習録音Pro」を搭載しています。
+        </p>
+    </div>
 </section>
 
-<section style="background:#111827;">
+
+<section>
+    <h2>🎬 アプリ動作動画</h2>
+
+    <video controls width="100%" style="max-width:500px; border-radius:12px;">
+        <source src="movie4.mp4" type="video/mp4">
+    </video>
+</section>
+
+
+<section style="background:#111827; color:white;">
     <h2>🎯 こんな人におすすめ</h2>
+
     <p>・楽器練習（ギター・ピアノ・ドラム）</p>
+    <p>・自分の演奏を録音して確認したい人</p>
     <p>・バンド練習</p>
     <p>・リズムトレーニング</p>
 </section>
+
 
 <footer>
 © 2026 Metronome App
